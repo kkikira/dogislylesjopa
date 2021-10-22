@@ -1,0 +1,444 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: grid;
+	grid-template-columns: repeat(19, 1fr);
+	grid-template-rows: repeat(26, 80px);
+}
+
+article {
+	border: solid 2px black;
+}
+/*2 ряд*/
+article:nth-child(24){
+	background-color: black;
+	
+}
+article:nth-child(34){
+	background-color: black;
+}
+/*3ряд*/
+article:nth-child(42){
+	background-color: black;
+}
+article:nth-child(43){
+	background-color: chocolate;
+}
+article:nth-child(44){
+	background-color: black;
+}
+article:nth-child(52){
+	background-color: black;
+}
+article:nth-child(53){
+	background-color: chocolate;
+}
+article:nth-child(54){
+	background-color: black;
+}
+/*4ряд*/
+article:nth-child(61){
+	background-color: black;
+}
+article:nth-child(62){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(63){
+	background-color: black;
+}
+article:nth-child(69){
+	background-color: black;
+}
+article:nth-child(70){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(71){
+	background-color: black;
+}
+/*5ряд*/
+article:nth-child(78){
+	background-color: black;
+}
+article:nth-child(79){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(80){
+	background-color: black;
+}
+article:nth-child(84){
+	background-color: black;
+}
+article:nth-child(85){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(86){
+	background-color: black;
+}
+/*6ряд*/
+article:nth-child(93){
+	background-color: black;
+}
+article:nth-child(94){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(95){
+	background-color: black;
+	grid-column: span 5;
+}
+article:nth-child(96){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(97){
+	background-color: black;
+}
+/*7ряд*/
+article:nth-child(104){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(105){
+	background-color: chocolate;
+	grid-column: span 4;
+}
+article:nth-child(107){
+	background-color: chocolate;
+	grid-column: span 4;
+}
+article:nth-child(108){
+	background-color: black;
+	grid-column: span 2;
+}
+/*8ряд*/
+article:nth-child(115){
+	background-color: black;
+}
+article:nth-child(116){
+	background-color: chocolate;
+	grid-column: span 4;
+}
+article:nth-child(120){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(123){
+	background-color: black;
+}
+/*9 ряд*/
+article:nth-child(129){
+	background-color: black;
+}
+article:nth-child(131){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(141){
+	background-color: black;
+}
+/*10ряд*/
+article:nth-child(146){
+	background-color: black;
+}
+article:nth-child(149){
+	background-color: chocolate;
+}
+article:nth-child(150){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(152){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(156){
+	background-color: black;
+}
+/*11ряд*/
+article:nth-child(161){
+	background-color: black;
+}
+article:nth-child(163){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(164){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(166){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(167){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(169){
+	background-color: black;
+}
+/*12ряд*/
+article:nth-child(175){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(176){
+	background-color: chocolate;
+	grid-column: span 9;
+}
+article:nth-child(177){
+	background-color: black;
+	grid-column: span 2;
+}
+/*13ряд*/
+article:nth-child(183){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(184){
+	background-color: chocolate;
+	grid-column: span 11 ;
+}
+article:nth-child(185){
+	background-color: black;
+	grid-column: span 2;
+}
+/*14ряд*/
+article:nth-child(189){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(190){
+	background-color: chocolate;
+	grid-column: span 2 ;
+}
+article:nth-child(191){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(192){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(193){
+	background-color: chocolate;
+}
+article:nth-child(194){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(195){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(196){
+	background-color: chocolate;
+	grid-column: span 2 ;
+}
+article:nth-child(197){
+	background-color: black;
+	grid-column: span 2;
+}
+/*15ряд*/
+article:nth-child(200){
+	background-color: black;
+}
+article:nth-child(201){
+	background-color: chocolate;
+	grid-column: span 2 ;
+}
+article:nth-child(202){
+	background-color: #ffe3a0;
+	grid-column: span 3;
+}
+article:nth-child(204){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(206){
+	background-color: #ffe3a0;
+	grid-column: span 3;
+}
+article:nth-child(207){
+	background-color: chocolate;
+	grid-column: span 2 ;
+}
+article:nth-child(208){
+	background-color: black;
+}
+/*16ряд*/
+article:nth-child(211){
+	background-color: black;
+}
+article:nth-child(212){
+	background-color: chocolate;
+}
+article:nth-child(213){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(218){
+	background-color: black;
+}
+article:nth-child(223){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(224){
+	background-color: chocolate;
+}
+article:nth-child(225){
+	background-color: black;
+}
+/*17ряд*/
+article:nth-child(228){
+	background-color: black;
+}
+article:nth-child(229){
+	background-color: #ffe3a0;
+}
+article:nth-child(243){
+	background-color: #ffe3a0;
+}
+article:nth-child(244){
+	background-color: black;
+}
+/*18ряд*/
+article:nth-child(247){
+	background-color: black;
+}
+article:nth-child(248){
+	background-color: #ffe3a0;
+}
+article:nth-child(262){
+	background-color: #ffe3a0;
+}
+article:nth-child(263){
+	background-color: black;
+}
+/*19ряд*/
+article:nth-child(266){
+	background-color: black;
+}
+article:nth-child(267){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(279){
+	background-color: #ffe3a0;
+	grid-column: span 2;
+}
+article:nth-child(280){
+	background-color: black;
+}
+/*20ряд*/
+article:nth-child(283){
+	background-color: black;
+}
+article:nth-child(284){
+	background-color: chocolate;
+}
+article:nth-child(285){
+	background-color: #ffe3a0;
+}
+article:nth-child(291){
+	background-color: black;
+}
+article:nth-child(297){
+	background-color: #ffe3a0;
+}
+article:nth-child(298){
+	background-color: chocolate;
+}
+article:nth-child(299){
+	background-color: black;
+}
+/*21ряд*/
+article:nth-child(303){
+	background-color: black;
+}
+article:nth-child(304){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(309){
+	background-color: black;
+}
+article:nth-child(314){
+	background-color: chocolate;
+	grid-column: span 2;
+}
+article:nth-child(315){
+	background-color: black;
+}
+/*22ряд*/
+article:nth-child(321){
+	background-color: black;
+}
+article:nth-child(322){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(324){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(326){
+	background-color: chocolate;
+	grid-column: span 3;
+}
+article:nth-child(327){
+	background-color: black;
+}
+/*23ряд*/
+article:nth-child(335){
+	background-color: black;
+}
+article:nth-child(337){
+	background-color: chocolate;
+}
+article:nth-child(338){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(340){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(341){
+	background-color: chocolate;
+}
+article:nth-child(343){
+	background-color: black;
+}
+/*24ряд*/
+article:nth-child(352){
+	background-color: black;
+}
+article:nth-child(355){
+	background-color: black;
+}
+article:nth-child(359){
+	background-color: black;
+}
+article:nth-child(362){
+	background-color: black;
+}
+/*25ряд*/
+article:nth-child(372){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(378){
+	background-color: black;
+	grid-column: span 2;
+}
+
+
