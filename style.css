@@ -4,9 +4,11 @@
 	box-sizing: border-box;
 }
 body {
+	width: 50vw;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(19, 1fr);
-	grid-template-rows: repeat(26, 80px);
+	grid-template-rows: repeat(26, 3.8%);
 }
 
 /*2 ряд*/
