@@ -9,9 +9,6 @@ body {
 	grid-template-rows: repeat(26, 80px);
 }
 
-article {
-	border: solid 2px black;
-}
 /*2 ряд*/
 article:nth-child(24){
 	background-color: black;
